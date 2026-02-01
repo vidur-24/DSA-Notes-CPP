@@ -1,0 +1,58 @@
+# DYNAMIC PROGRAMMING : (pre-requisite : Recursion)
+
+-> Those who cannot remember the past, are condemned to repeat it ~DP
+-> Overlapping sub-problems = problem which has already been computed before in the program
+-> Recursion is always top-down
+
+
+-> Why we cant use Greedy in some problems? = becuz local optimal solution doesnt leads to global optimal  (no uniformity)       
+-> When Greedy fails : tray all possible ways -> recursion -> dp.
+
+
+-> 3 Steps/Ways after recursion:
+       i. top-down approach = recursion + memoization (store the value of sub probs in a map/table)
+       ii. bottom-up approach = tabulation
+       iii. space optimization
+
+
+-> How to know if DP problem : 
+        - all possible ways (count/best way)
+        - min/max
+        - overlapping subproblems in recursion
+
+-> Shortcut trick recursion/dp problems:
+        - try to represent problem in terms of index (i and j in case of grids)
+        - do all possible stuff on that index acc to the prob statement
+        - sum of all stuff -> count all ways
+          min(of all stuff) -> find min
+
+-> In space optimization:
+        - if 1D dp, then use 2 variables
+        - if 2D dp, then use 1D array
+        - if 3D dp, then use 2D array
+
+
+DPs:
+- 1D DP (dp on arrays)
+- 2D/3D DP (dp on grids) :
+        1. count paths
+        2. count paths with obstacles
+        3. min path sum
+        4. max path sum
+        5. triangle
+        6. 2 start points
+- DP on subsequences/subsets and target:
+        1. subset sum
+- DP on strings/lcs:
+        1. lcs
+        2. string matching
+- DP on Stocks:
+        1. buy and sell 1 transaction
+        2. buy and sell unlimited transactions
+        3. buy and sell with k transactions
+- DP on lis
+
+
+
+
+-> IMP : dp with negative constraints -> (https://chatgpt.com/share/68684e71-95d4-8003-bea4-28974d2b7ad5)

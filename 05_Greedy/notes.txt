@@ -1,0 +1,22 @@
+GREEDY APPROACH:
+-> local optimal solution at each sub-problem will eventually lead to global solution
+-> Ex: Prims, Krushkal, Dijkstra
+-> Ex: Activity Selection (N meetings in one room), Fractional Knapsack, Job Sequencing with Deadline, Min Coins Change, Huffman Encoding
+-> Ex: SJF(cpu scheduling), LRU(page replacement)
+-> Note: Greedy doesnt always work, Ex: 0/1 Knapsack
+-> to improve TC of algo use DP instead of Greedy
+
+
+General Greedy Algorithm Steps:
+1. Sort data (if needed) based on a heuristic.
+2. Initialize the result.
+3. Iterate over data and pick the best possible option at each step (locally optimal).
+4. Update the result.
+5. Return the final answer.
+
+
+Tips to Identify Greedy Problems:
+- Problem asks for maximum/minimum (e.g., time, cost, profit).
+- You can make a choice at each step.
+- Choices are independent (future steps don't depend on past decisions).
+- The problem hints that local optimum = global optimum.

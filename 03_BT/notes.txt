@@ -1,0 +1,30 @@
+BT:
+-> 2 child trees
+-> Types of BT:
+   1. Full BT : every node has 0 or 2 children
+   2. Complete BT : all levels are fully filled except possibly the last, which is filled from left to right
+   3. Perfect BT : all leaves are at the same level
+   4. Balanced BT : height of tree at max is log(n)
+   5. Degenerate (or pathological or skewed) : each parent node has only one child
+
+
+
+BT representation in CPP:
+```
+struct Node {
+    int data;
+    Node* left;
+    Node* right;
+
+    Node(int val) : data(val), left(nullptr), right(nullptr) {}
+};
+```
+
+
+Traversal of BT:
+1. DFS:
+    - Preorder (NLR)
+    - Inorder (LNR)
+    - Postorder (LRN)
+2. BFS: 
+    - Level order traversal

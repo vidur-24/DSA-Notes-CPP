@@ -1,0 +1,12 @@
+-> Stack = LIFO
+   Queue = FIFO
+
+-> Stack ops = push, pop, top, empty, size
+   Queue ops = enqueue, dequeue, front, empty, size
+
+-> Implementation:
+    1. Stack/Queue using Array (static)
+    2. Stack/Queue using Linked List (dynamic)
+    3. Stack/Queue using Stack/Queue
+
+-> Infix, Prefix, Postfx conversions

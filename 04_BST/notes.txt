@@ -1,0 +1,8 @@
+# BST
+-> BT in which (l < n < r)
+-> height = log(n)
+-> height should be kept as low as possible
+-> optimal TC should be O(h)
+
+-> IMP : most imp property for bst = inorder is sorted
+-> NOTE : to rmeove recursive stack space in traversals, use Morris Traversal

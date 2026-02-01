@@ -1,0 +1,27 @@
+# GRAPHS
+-> Graphs = Vertices + Edges
+-> Types = Directed and Undirected, Cyclic and Acyclic
+-> Path and Degree of Graph
+-> Imp : DAG = Directed Acyclic Graph
+
+# REPRESENTATION
+-> Two ways to represent Graphs: 
+1. Matrix (SC = O(V*V))
+2. List (SC = O(2E))
+
+# TRAVERSAL
+-> Two traversal techniques :
+1. DFS
+2. BFS
+
+# SHORTEST PATHS
+-> Three shortest path algos:
+1. Dijkstra (single source, greedy)
+2. Bellman (single source, dp)
+3. Floyd Warshall (multi source, dp)
+
+-> Spanning Tree: a tree with n nodes and n-1 edges, and each nodes are reachable from one another
+-> MST : ST with minimun cost
+-> Two algos to find MST: 
+1. Prims
+2. Krushkal 

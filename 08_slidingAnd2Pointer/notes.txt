@@ -1,0 +1,22 @@
+2 Pointer and Sliding Window patterns:
+-> constant window
+-> longest/max subarray/substr where <condition>
+    - brute : generate all subarrays O(n^2) and check
+    - better : 2 pointer O(2n)
+    - optimal : optimized shrinking condition O(n)
+-> number of subarrays/substr where <condition>
+    - using technique : ex((no substr <=k) - (no of substr <=k-1) = (no of substr == k))
+-> shortest/min window where <condition>
+    - get valid window then shrink size
+
+
+
+
+- expand r and shrink l
+- len of window = r-l+1
+- condition true, expand r
+  condition false, shrink l
+
+
+
+// Strivers all 2 Pointer and Sliding Window important
